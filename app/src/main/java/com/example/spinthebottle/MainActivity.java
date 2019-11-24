@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             Animation rotate = new RotateAnimation(preDir, newDir, pivotx, pivoty);
-            rotate.setDuration(2000);
+            rotate.setDuration(3000);
             rotate.setFillAfter(true);
             rotate.setAnimationListener(new Animation.AnimationListener() {
                 @Override
